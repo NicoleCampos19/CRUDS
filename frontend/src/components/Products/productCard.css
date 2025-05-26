@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.product-card {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.product-content {
+  padding: 24px;
+}
+
+.product-title {
+  font-size: 20px;
+  color: #003399;
+  margin-bottom: 12px;
+}
+
+.product-name {
+  color: #009ee2;
+  font-weight: bold;
+}
+
+.product-info {
+  color: #444;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.product-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.product-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-danger {
+  background-color: #FFE202;
+  color: #003399;
+}
+
+.btn-danger:hover {
+  background-color: #f0d500;
+}
+
+.btn-warning {
+  background-color: #009ee2;
+  color: #ffffff;
+}
+
+.btn-warning:hover {
+  background-color: #0087c1;
+}
+
